@@ -10,7 +10,7 @@
   <!-- Sync trees -->
   <project path="device/xiaomi/raphael" name="Pranav-Talmale/android_device_xiaomi_raphael" remote="github" revision="12l" />
   <project path="vendor/xiaomi/raphael" name="VoltageOS-Devices/vendor_xiaomi_raphael" remote="github" revision="12l" />
-  <project path="kernel/xiaomi/raphael" name="/VoltageOS-Devices/kernel_xiaomi_raphael" remote="github" revision="12l" />
+  <project path="kernel/xiaomi/raphael" name="VoltageOS-Devices/kernel_xiaomi_raphael" remote="github" revision="12l" />
   <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="15" remote="gitlab" />
   
   </manifest>
