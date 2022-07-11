@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="github"
+                fetch="https://github.com" />
+
+        <remote name="gitlab"
+                fetch="https://gitlab.com" />
+
+  <!-- Sync trees -->
+  <project path="device/xiaomi/raphael" name="Evolution-X-Devices/device_xiaomi_raphael" remote="github" revision="snow" />
+  <project path="vendor/xiaomi/raphael" name="Evolution-X-Devices/vendor_xiaomi_raphael" remote="github" revision="snow" />
+  <project path="kernel/xiaomi/raphael" name="Evolution-X-Devices/kernel_xiaomi_raphael" remote="github" revision="snow" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-prelude" name="jjpprrrr/prelude-clang" remote="gitlab" revision="master" clone-depth="1" />
+  
+  </manifest>
