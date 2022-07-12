@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="github"
+                fetch="https://github.com/VoltageOS-Devices" />
+
+  <!-- Sync trees -->
+  <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="github" revision="12l" />
+  <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="github" revision="12l" />
+  <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="github" revision="12l" />
+  
+  </manifest>
