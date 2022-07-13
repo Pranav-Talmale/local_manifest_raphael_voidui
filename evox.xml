@@ -7,10 +7,20 @@
         <remote name="gitlab"
                 fetch="https://gitlab.com" />
 
+  <!-- Remove some projects -->
+  <remove-project name="hardware/qcom/audio"/>
+  <remove-project name="hardware/qcom/media"/>
+  <remove-project name="hardware/qcom/display"/>
+
   <!-- Sync trees -->
   <project path="device/xiaomi/raphael" name="Evolution-X-Devices/device_xiaomi_raphael" remote="github" revision="snow" />
   <project path="vendor/xiaomi/raphael" name="Evolution-X-Devices/vendor_xiaomi_raphael" remote="github" revision="snow" />
   <project path="kernel/xiaomi/raphael" name="Evolution-X-Devices/kernel_xiaomi_raphael" remote="github" revision="snow" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-prelude" name="jjpprrrr/prelude-clang" remote="gitlab" revision="master" clone-depth="1" />
+  
+  <!-- Hardware/Qcom -->
+  <project path="hardware/qcom/audio" name="VoltageOS/hardware_qcom_audio" remote="github" revision="12-sm8150" clone-depth="1" />
+  <project path="hardware/qcom/media" name="VoltageOS/hardware_qcom_media" remote="github" revision="12-sm8150" clone-depth="1" />
+  <project path="hardware/qcom/display" name="VoltageOS/hardware_qcom_display" remote="github" revision="12-sm8150" clone-depth="1" />
   
   </manifest>
